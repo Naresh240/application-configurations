@@ -1,0 +1,14 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta1
+kind: GitRepository
+metadata:
+  name: application-repo
+spec:
+  interval: 1m
+  url: https://github.com/Naresh240/application-repo.git
+  ignore: |
+    .git/
+    .github/
+  ref:
+    branch: master
+  secretRef:
+    name: flux-system
