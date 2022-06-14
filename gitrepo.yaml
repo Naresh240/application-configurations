@@ -5,7 +5,7 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m
-  url: https://github.com/Naresh240/application-repo.git
+  url: git@github.com:Naresh240/application-repo.git
   ignore: |
     .git/
     .github/
