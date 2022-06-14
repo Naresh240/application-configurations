@@ -2,6 +2,7 @@ apiVersion: source.toolkit.fluxcd.io/v1beta1
 kind: GitRepository
 metadata:
   name: application-repo
+  namespace: flux-system
 spec:
   interval: 1m
   url: https://github.com/Naresh240/application-repo.git
