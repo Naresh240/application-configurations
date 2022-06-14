@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1beta2
 kind: Kustomization
 metadata:
-  name: infrastructure
+  name: application-configuration
   namespace: flux-system
 spec:
   interval: 1m0s
@@ -15,7 +15,3 @@ spec:
     substituteFrom:
       - kind: ConfigMap
         name: application-config
-      - kind: ConfigMap
-        name: application-dev-config        
-      - kind: ConfigMap
-        name: application-prod-config
