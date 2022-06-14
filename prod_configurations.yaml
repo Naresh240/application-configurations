@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: application-prod-config
+  namespace: flux-system
+data:
+  replica_count: "3"

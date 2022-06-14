@@ -15,3 +15,7 @@ spec:
     substituteFrom:
       - kind: ConfigMap
         name: application-config
+      - kind: ConfigMap
+        name: application-dev-config        
+      - kind: ConfigMap
+        name: application-prod-config
