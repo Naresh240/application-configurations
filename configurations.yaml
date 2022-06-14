@@ -4,4 +4,4 @@ metadata:
   name: application-config
   namespace: flux-system
 data:
-  registry_env: dev
+  registry_env: prod
