@@ -20,7 +20,7 @@ export GITHUB_TOKEN="provide github token"
 ## Flux Bootstraping
 
 ```sh
-export GITHUB_TOKEN="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"
+export GITHUB_TOKEN="XXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 export GITHUB_USER="naresh240"
 export GITHUB_REPO="application-configurations"
 export GITHUB_BRANCH="master"
